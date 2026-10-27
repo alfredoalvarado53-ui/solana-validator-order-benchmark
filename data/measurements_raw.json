@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "benchmark": "Inside the Block: Solana Validator Ordering",
+    "timestampUtc": "2026-10-27T16:51:59Z",
+    "rpcUrl": "https://api.mainnet-beta.solana.com",
+    "executionMode": "DRY_RUN",
+    "totalSpentSol": 0.0,
+    "targetValidatorsCount": 6
+  },
+  "measurements": [
+    {
+      "nodePubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431912,
+        431913,
+        431914,
+        431915
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_Fd7btgyS_431912",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_Fd7btgyS_431912",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_Fd7btgyS_431912",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_Fd7btgyS_431912",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431912,
+      "timestamp": 1793119919.060399
+    },
+    {
+      "nodePubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431980,
+        431981,
+        431982,
+        431983
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_HEL1USMZ_431980",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_HEL1USMZ_431980",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_HEL1USMZ_431980",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_HEL1USMZ_431980",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.060399,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431980,
+      "timestamp": 1793119919.060399
+    },
+    {
+      "nodePubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431804,
+        431805,
+        431806,
+        431807
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_DRpbCBMx_431804",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_DRpbCBMx_431804",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_DRpbCBMx_431804",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_DRpbCBMx_431804",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431804,
+      "timestamp": 1793119919.0614166
+    },
+    {
+      "nodePubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431500,
+        431501,
+        431502,
+        431503
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_E1r4Psq8_431500",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_E1r4Psq8_431500",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_E1r4Psq8_431500",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_E1r4Psq8_431500",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.0614166,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431500,
+      "timestamp": 1793119919.0614166
+    },
+    {
+      "nodePubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431836,
+        431837,
+        431838,
+        431839
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_JUPiTERr_431836",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_JUPiTERr_431836",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_JUPiTERr_431836",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_JUPiTERr_431836",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431836,
+      "timestamp": 1793119919.062418
+    },
+    {
+      "nodePubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+      "clientVersion": "unknown",
+      "clientCategory": "Custom-Fork (unknown)",
+      "scheduledSlots": [
+        431596,
+        431597,
+        431598,
+        431599
+      ],
+      "executionMode": "DRY_RUN_SIMULATED",
+      "costLamports": 46000,
+      "txBurst": [
+        {
+          "batchId": "probe_CAo1dCGY_431596",
+          "txIndexInBurst": 0,
+          "priorityFeeMicroLamports": 0,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 5000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_CAo1dCGY_431596",
+          "txIndexInBurst": 1,
+          "priorityFeeMicroLamports": 5000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 6000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_CAo1dCGY_431596",
+          "txIndexInBurst": 2,
+          "priorityFeeMicroLamports": 25000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 10000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        },
+        {
+          "batchId": "probe_CAo1dCGY_431596",
+          "txIndexInBurst": 3,
+          "priorityFeeMicroLamports": 100000,
+          "computeUnitsRequested": 200000,
+          "estimatedFeeLamports": 25000,
+          "timestampSent": 1793119919.062418,
+          "conflictGroup": "isolated_accounts"
+        }
+      ],
+      "analyzedBlockSlot": 431596,
+      "timestamp": 1793119919.062418
+    }
+  ]
+}
