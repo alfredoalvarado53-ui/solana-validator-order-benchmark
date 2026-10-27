@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  validator-ordering-probe:
+    build: .
+    environment:
+      - SOLANA_RPC_URL=${SOLANA_RPC_URL:-https://api.mainnet-beta.solana.com}
+      - SPEND_CAP_SOL=0.05
+    volumes:
+      - ./data:/app/data
+    command: ["python", "validator_scheduler_probe.py"]
